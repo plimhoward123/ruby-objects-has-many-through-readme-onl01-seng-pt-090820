@@ -7,4 +7,8 @@ class Waiter
     @years = years
     @@all << self
   end
+
+  def self.all
+    @@all 
+  end
 end
